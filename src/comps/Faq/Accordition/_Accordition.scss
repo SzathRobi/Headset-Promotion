@@ -1,0 +1,65 @@
+@import "../../variables";
+
+.Accordition {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden;
+
+  .top-part {
+    height: 3rem;
+    display: flex;
+    background: #4777f438;
+    overflow: hidden;
+    position: relative;
+
+    .brick {
+      width: 4rem;
+      height: 6.5rem;
+      background-color: $primary-color;
+      position: absolute;
+      top: -1.5rem;
+      left: -1.5rem;
+      transition: 300ms;
+      transform: rotate(-30deg);
+    }
+
+    i {
+      position: absolute;
+      top: 1.5rem;
+      left: 0.7rem;
+      transform: translateY(-50%);
+      z-index: 2;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    p {
+      margin: auto auto auto 3.5rem;
+      font-weight: 600;
+    }
+  }
+
+  .bottom-part {
+    padding: 0 1rem;
+    background-color: #4879f412;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      color: #434a7e;
+      padding: 1rem;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .Accordition {
+    font-size: 130%;
+
+    .top-part {
+      height: 3.5rem;
+    }
+  }
+}

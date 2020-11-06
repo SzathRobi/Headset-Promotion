@@ -1,0 +1,49 @@
+@import "./comps/Header/Header";
+@import "./comps/Home/Home";
+@import "./comps/TitleContainer/TitleContainer";
+@import "./comps/Features/Features";
+@import "./comps/Features/FeatureCard/FeatureCard";
+@import "./comps/About/About";
+@import "./comps/About/WhyUs/WhyUs";
+@import "./comps/About/AboutSlider/AboutSlider";
+@import "./comps/Product/Product";
+@import "./comps/Faq/Faq";
+@import "./comps/Testimonials/Testimonials";
+@import "./comps/Contact/Contact";
+@import "./comps/Contact/Newsletter/Newsletter";
+@import "./comps/Contact/ContactCard/ContactCard";
+@import "./comps//Footer/Footer";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  position: relative;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 300ms;
+  background-color: #4777f4;
+  color: #fff;
+  &:hover {
+    background-color: #2b4996;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,8 @@
+$primary-color: #4777f4;
+
+@mixin textSecondary {
+  margin: 1rem 0;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  color: #434a7e;
+}

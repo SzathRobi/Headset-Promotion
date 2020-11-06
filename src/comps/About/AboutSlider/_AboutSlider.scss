@@ -1,0 +1,62 @@
+@import "../../variables";
+
+.AboutSlider {
+  background-color: #fff;
+  padding: 0 1rem 5rem;
+  width: 100%;
+  position: relative;
+  top: -1px;
+  z-index: 1;
+
+  .alice-carousel {
+    background-color: #f8f8ff;
+    position: relative;
+    width: 100%;
+  }
+
+  .slider-img {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    top: 0.3rem;
+    left: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .alice-carousel {
+    width: 600px;
+    margin: 0 auto;
+
+    .alice-div {
+      width: 100%;
+      height: 20rem;
+      position: relative;
+
+      img {
+        width: 18rem;
+        height: 18rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .AboutSlider {
+    width: 45%;
+    .alice-carousel {
+      top: 12rem;
+      background-color: #fff;
+
+      .slider-img {
+        width: 21rem;
+        height: 21rem;
+        left: 45%;
+      }
+    }
+  }
+}
