@@ -1,10 +1,10 @@
 import React from "react";
 
-function ContactCard({ title,text, theme }) {
+function ContactCard({ icon, title, text, delay }) {
   return (
-    <div className="ContactCard">
+    <div className="ContactCard" data-aos="fade-up" data-aos-delay={delay}>
       <div className="contactIcon-container">
-        <i className="fas fa-medal"></i>
+        <i className={icon}></i>
       </div>
       <div className="contact-content">
         <h3>{title}</h3>

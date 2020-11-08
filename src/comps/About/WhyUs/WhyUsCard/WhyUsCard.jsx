@@ -1,10 +1,10 @@
 import React from "react";
 
-function WhyUsCard({ title,text, theme }) {
+function WhyUsCard({ title,text, icon }) {
   return (
-    <div className="WhyUsCard">
+    <div className="WhyUsCard" data-aos="fade-right" data-aos-offset="300">
       <div className="whyIcon-container">
-        <i className="fas fa-medal"></i>
+        <i className={icon}></i>
       </div>
       <div className="why-content">
         <h3>{title}</h3>

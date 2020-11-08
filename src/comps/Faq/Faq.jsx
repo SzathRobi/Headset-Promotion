@@ -8,11 +8,11 @@ function Faq() {
       <TitleContainer category="FAQS" title="Frequently Asked Questions" />
       <div className="faq-container">
         <div className="accorditions">
-          <Accordition question="How To Buy The Products? #1"/>
-          <Accordition question="How Much Price Of The Product? #2"/>
-          <Accordition question="How Can I Get Refound? #3"/>
+          <Accordition question="How To Buy The Products? #1" delay="100"/>
+          <Accordition question="How Much Price Of The Product? #2" delay="200"/>
+          <Accordition question="How Can I Get Refound? #3" delay="300"/> 
         </div>
-        <img className="faq-img" src={faqs} alt="headset"/>
+        <img className="faq-img" src={faqs} alt="headset" data-aos="fade-left"/>
       </div>
      
     </div>

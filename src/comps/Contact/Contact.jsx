@@ -10,7 +10,7 @@ function Contact() {
             <div className="contact-us">
                 <TitleContainer category="CONTACT US" title="Lets Get In Touch"/>
                 <div className="form-container">
-                     <form>
+                     <form data-aos="fade-right">
                     <div className="input-container name-subject">
                         <input type="text" placeholder="Name"/>
                         <input type="text" placeholder="Subject"/>
@@ -23,9 +23,9 @@ function Contact() {
                     <button>SEND MESSAGE</button>
                     </form>
                     <div className="contact-cards">
-                        <ContactCard title="Our Head Office" text="420, Grasseli Street." />
-                        <ContactCard title="Call Us On" text="0611-420-18" />
-                        <ContactCard title="Email Us At" text="info@example.com" />
+                        <ContactCard icon="fas fa-location-arrow" title="Our Head Office" text="420, Grasseli Street." delay="100"/>
+                        <ContactCard icon="fas fa-phone" title="Call Us On" text="0611-420-18" delay="250"/>
+                        <ContactCard icon="fas fa-envelope" title="Email Us At" text="info@example.com" delay="400"/>
                     </div>
                 </div>
             </div>

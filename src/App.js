@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Header from "./comps/Header/Header";
 import Home from "./comps/Home/Home";
@@ -11,11 +11,18 @@ import "./App.scss";
 import Testimonials from "./comps/Testimonials/Testimonials";
 import Contact from "./comps/Contact/Contact";
 import Footer from "./comps/Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  
+
+  useEffect(() => {
+    AOS.init()
+    AOS.refresh()
+  }, [])
+
   return (
-    <div className="App">
+    <div className="App" data-aos="fade-in">
       <Header />
       <Home />
       <Features />

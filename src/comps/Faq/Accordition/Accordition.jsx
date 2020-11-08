@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Accordition({question}) {
+function Accordition({question, delay}) {
   const [accorditionClicked, setAccorditionCliked] = useState(false);
   const updateAccorditionClicked = () =>
     setAccorditionCliked(!accorditionClicked);
@@ -16,7 +16,7 @@ function Accordition({question}) {
   }
 
   return (
-    <div className="Accordition" onClick={updateAccorditionClicked}>
+    <div className="Accordition" onClick={updateAccorditionClicked} data-aos="fade-up" data-aos-delay={delay}>
       <div className="top-part">
         <div className="brick" style={brickStyle}></div>
         {

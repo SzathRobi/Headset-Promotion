@@ -9,7 +9,7 @@ function Newsletter() {
            <img src={map} alt=""/>
             <div className="newsletter-content">
             <TitleContainer category="NEWSLETTER" title="Subscribe To Get Updates"/>         
-            <form>
+            <form data-aos="fade-up">
                 <i className="fas fa-envelope"></i>
                 <input type="text" placeholder="Email Address Here"/>
                 <button>SUBSCRIBE NOW</button>

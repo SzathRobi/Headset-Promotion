@@ -3,8 +3,8 @@ import React from "react";
 function ProductCard({ img }) {
   return (
     <div className="ProductCard">
-      <img src={img} alt="headset" />
-      <div className="ProductCard-content">
+      <img src={img} alt="headset" data-aos="fade-up"/>
+      <div className="ProductCard-content" data-aos="fade-left">
         <ul>
           <li>
             <h2>Mdr-7zx Headphones</h2>

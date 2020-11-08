@@ -36,7 +36,9 @@
       input {
         font-size: 1rem;
         width: 45%;
+        height: 80%;
         border: none;
+        padding: 0 1rem;
       }
 
       button {
@@ -73,6 +75,15 @@
   .Newsletter {
     img {
       height: 300%;
+    }
+    .newsletter-content {
+      form {
+        width: 50%;
+
+        input {
+          width: 70%;
+        }
+      }
     }
   }
 }

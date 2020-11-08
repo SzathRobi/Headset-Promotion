@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TitleContainer from "../../TitleContainer/TitleContainer"
 import WhyUsCard from "./WhyUsCard/WhyUsCard"
 
 function WhyUs() {
+
     return (
         <div className="whyUs">
         <TitleContainer
@@ -11,17 +12,17 @@ function WhyUs() {
         />
         <div className="why-cards">
           <WhyUsCard 
-            theme="blue" 
+            icon="fas fa-medal"
             text="Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
           mauris sit amet" 
             title="High Quality" />
           <WhyUsCard 
-            theme="white"
+            icon="fas fa-pencil-alt "
             text="Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
           mauris sit amet"  
             title="Fashionable Design" />
           <WhyUsCard 
-            theme="white"
+            icon="fas fa-cogs"
             text="Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
           mauris sit amet"  
             title="Latest Technology" />
