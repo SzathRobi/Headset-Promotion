@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "432af70501d7860345520116f7534296",
+    "revision": "ab15a5b8fa8ee437fc96b989a3dc506d",
     "url": "/Headset-Promotion/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Headset-Promotion/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "2c7d3ae8c2a54ccbcab4",
-    "url": "/Headset-Promotion/static/css/main.ab798f65.chunk.css"
+    "revision": "076d99fe8ac2d5b90696",
+    "url": "/Headset-Promotion/static/css/main.b9c44845.chunk.css"
   },
   {
     "revision": "9aa3b2f6e018f6cc59ad",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Headset-Promotion/static/js/2.e4a98f12.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c7d3ae8c2a54ccbcab4",
+    "revision": "076d99fe8ac2d5b90696",
     "url": "/Headset-Promotion/static/js/main.f92d4874.chunk.js"
   },
   {
