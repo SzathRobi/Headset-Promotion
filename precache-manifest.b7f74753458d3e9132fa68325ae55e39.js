@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab15a5b8fa8ee437fc96b989a3dc506d",
+    "revision": "625995373cc2671e9ebd8f2d5d81dfd5",
     "url": "/Headset-Promotion/index.html"
   },
   {
-    "revision": "9aa3b2f6e018f6cc59ad",
+    "revision": "5cef775b29f5cb1c8f54",
     "url": "/Headset-Promotion/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "076d99fe8ac2d5b90696",
-    "url": "/Headset-Promotion/static/css/main.b9c44845.chunk.css"
+    "revision": "87d26d4d88a4e47aa429",
+    "url": "/Headset-Promotion/static/css/main.1e3bbd54.chunk.css"
   },
   {
-    "revision": "9aa3b2f6e018f6cc59ad",
-    "url": "/Headset-Promotion/static/js/2.e4a98f12.chunk.js"
+    "revision": "5cef775b29f5cb1c8f54",
+    "url": "/Headset-Promotion/static/js/2.0b51548a.chunk.js"
   },
   {
     "revision": "65075b20798fa24012a1ad453c78c90d",
-    "url": "/Headset-Promotion/static/js/2.e4a98f12.chunk.js.LICENSE.txt"
+    "url": "/Headset-Promotion/static/js/2.0b51548a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "076d99fe8ac2d5b90696",
-    "url": "/Headset-Promotion/static/js/main.f92d4874.chunk.js"
+    "revision": "87d26d4d88a4e47aa429",
+    "url": "/Headset-Promotion/static/js/main.6872ffa1.chunk.js"
   },
   {
     "revision": "fc925b0b2182162fc758",
